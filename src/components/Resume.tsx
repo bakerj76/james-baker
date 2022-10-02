@@ -13,7 +13,8 @@ import {
 
 import '../assets/styles/resume.css';
 
-const { EMAIL, PHONE_NUMBER } = import.meta.env;
+const EMAIL = import.meta.env.VITE_EMAIL;
+const PHONE_NUMBER = import.meta.env.VITE_PHONE_NUMBER;
 
 const Resume = () => {
 	interface ResumeEntryProps {
