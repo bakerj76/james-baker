@@ -67,9 +67,6 @@
     border-bottom: 1px solid var(--secondary-opposite);
     margin: 32px 0 32px;
 }
-.resume-section:last-child {
-    border-bottom: none;
-}
 
 .resume-section .title {
     font-family: 'FivoSans-Black';
@@ -127,6 +124,11 @@
     margin-top: 32px;
 }
 
+.resume-mobile-skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media only screen and (min-width: 768px) {
     #resume-header {
         margin-top: 32px;
@@ -143,7 +145,10 @@
         margin-left:32px;
         margin-right: 32px;
     }
-
+    .resume-section:nth-last-child(2) {
+        border-bottom: none;
+    }
+    
     .resume-section ul {
         margin-left: 0;
     }

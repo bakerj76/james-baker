@@ -140,6 +140,43 @@ const Resume = () => {
         </div>
     );
 
+    const ResumeMobileSkills = () => (
+        <div className="mobile-only">
+            <div className="resume-mobile-skills">
+                <div className="resume-margin-section">
+                    <div className="title uppercase">
+                        {'Skills'}
+                    </div>
+                    <ul className="info skills-list">
+                        <li><span>{'Javascript'}</span></li>
+                        <li><span>{'React'}</span></li>
+                        <li><span>{'Go'}</span></li>
+                        <li><span>{'SQL'}</span></li>
+                        <li><span>{'Typescript'}</span></li>
+                        <li><span>{'Webpack'}</span></li>
+                        <li><span>{'Python'}</span></li>
+                        <li><span>{'C#'}</span></li>
+                        <li><span>{'Django'}</span></li>
+                        <li><span>{'Git'}</span></li>
+                        <li><span>{'OpenGL'}</span></li>
+                        <li><span>{'Unity'}</span></li>
+                    </ul>
+                </div>
+                <div className="resume-margin-section">
+                    <div className="title uppercase">
+                        {'Interests'}
+                    </div>
+                    <ul className="info interests-list">
+                        <li><span>{'Guitar (18 years)'}</span></li>
+                        <li><span>{'Vegan Cooking'}</span></li>
+                        <li><span>{'Playing Chess Badly'}</span></li>
+                        <li><span>{'Keyboards'}</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    );
+
     const ResumeEntry = ({ company, position, date, location, link, children }: ResumeEntryProps) => (
         <div className="entry">
             <div className="header">
@@ -284,6 +321,7 @@ const Resume = () => {
                     </ul>
                 </ResumeEntry>
             </div>
+            <ResumeMobileSkills />
         </div>
     );
 
