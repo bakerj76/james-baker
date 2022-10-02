@@ -1,0 +1,114 @@
+#resume-header {
+	font-family: 'FivoSans-Black';
+	font-size: 3.2em;
+
+	line-height: 1.1;
+	text-align: center;
+}
+
+#job-title {
+	display: block;
+	line-height: 0.5;
+	color: rgba(125, 125, 125, 0.7);
+	margin-top: -8px;
+}
+
+.resume-columns {
+	display: flex;
+	flex-direction: row;
+}
+
+.resume-margin {
+	width: 220px;
+	padding: 16px;
+
+	background-color: var(--secondary-color);
+	border-right: 12px solid #565656;
+
+	flex-shrink: 0;
+}
+
+.resume-margin-section {
+	margin: 32px 0px 32px 0px;
+}
+.resume-margin-section .title {
+	font-family: 'FivoSans-Black';
+	font-size: 1.3em;
+	margin-bottom: 16px;
+}
+.resume-margin-subsection {
+	padding-left: 8px;
+	margin-bottom: 8px;
+}
+.resume-margin-section .subtitle {
+	font-family: 'FivoSans-Black';
+	line-height: 1;
+}
+.resume-margin-section .info {
+	padding-left: 8px;
+	font-size: 0.9em;
+	line-height: 1.2;
+}
+.resume-margin-section .skills-list {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: repeat(2, 84px);
+	grid-template-rows: repeat(6, min-content);
+
+	font-size: 0.9em;
+	padding-left: 30px;
+}
+.resume-margin-section .skills-list li span {
+	margin-left: -6px;
+}
+
+.resume-section {
+	border-bottom: 1px solid var(--secondary-opposite);
+	margin: 32px 32px 32px;
+}
+.resume-section:last-child {
+	border-bottom: none;
+}
+
+.resume-section .title {
+	font-family: 'FivoSans-Black';
+	font-size: 1.75em;
+	margin-bottom: 32px;
+}
+
+.resume-section .entry {
+	padding: 0 8px 24px;
+}
+.resume-section .header, .resume-section .subheader {
+	font-family: "FivoSans-Light";
+	display: flex;
+	flex-direction: row;
+	font-size: 1.35em;
+}
+.resume-section .subheader {
+	margin: 8px 0;
+	font-size: 1.1em;
+}
+.resume-section .company {
+	font-family: "FivoSans-Bold";
+}
+.resume-section .location {
+	font-family: "FivoSans-Light";
+	font-size: 1.1em;
+}
+.resume-section .position::before {
+	content: '';
+	display: inline-block;
+	
+	width: 8px;
+	height: 8px;
+	margin-bottom: 2px;
+	margin-left: 8px;
+	margin-right: 8px;
+	
+	border-radius: 50%;
+	background-color: var(--secondary-opposite);
+}
+.resume-section .date {
+	margin-left: auto;
+}

@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'FivoSans-Light';
+  font-style: normal;
+  src: local('FivoSans Light'), url('@/assets/styles/fonts/FivoSans-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FivoSans-Black';
+  font-style: normal;
+  src: local('FivoSans Black'), url('@/assets/styles/fonts/FivoSans-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FivoSans-Bold';
+  font-style: normal;
+  src: local('FivoSans Bold'), url('@/assets/styles/fonts/FivoSans-Bold.otf') format('opentype');
+}
+
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #213547;
+  background-color: #ffffff;
+
+  --secondary-color: #d0d0d0;
+  --secondary-opposite: #343434;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root.dark {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    --secondary-color: #343434;
+    --secondary-opposite: #f9f9f9;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: dark) {
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.svg-inline--fa {
+	margin-right: 4px;
+}
