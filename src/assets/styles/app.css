@@ -32,8 +32,14 @@
     left: 32px;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     #app {
         padding: 0;
+    }
+}
+
+@media only print {
+    .theme-toggle {
+        display: none;
     }
 }

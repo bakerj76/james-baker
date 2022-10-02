@@ -75,7 +75,7 @@
 }
 
 .resume-section .entry {
-    padding: 0 8px 24px;
+    padding: 0 8px 20px;
 }
 .resume-section .header, .resume-section .subheader {
     font-family: "FivoSans-Light";
@@ -129,7 +129,7 @@
     justify-content: space-evenly;
 }
 
-@media only screen and (min-width: 768px) {
+@media only print, (min-width: 768px) {
     #resume-header {
         margin-top: 32px;
         font-size: 3.2em;
