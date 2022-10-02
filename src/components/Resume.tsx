@@ -46,6 +46,11 @@ const Resume = () => {
 					{PHONE_NUMBER}
 				</div>
 				<div className="resume-margin-subsection">
+					<div className="subtitle uppercase">{'Website'}</div>
+					<FontAwesomeIcon icon={faLink} />
+					<a href="https://jamesbaker.site">{'jamesbaker.site'}</a>
+				</div>
+				<div className="resume-margin-subsection">
 					<div className="subtitle uppercase">{'LinkedIn'}</div>
 					<FontAwesomeIcon icon={faLinkedin} />
 					<a href="https://www.linkedin.com/in/bakerjm702">{'linkedin.com/in/bakerjm702'}</a>
@@ -86,6 +91,17 @@ const Resume = () => {
 					<li><span>{'Git'}</span></li>
 					<li><span>{'OpenGL'}</span></li>
 					<li><span>{'Unity'}</span></li>
+				</ul>
+			</div>
+			<div className="resume-margin-section">
+				<div className="title uppercase">
+					{'Interests'}
+				</div>
+				<ul className="info interests-list">
+					<li><span>{'Guitar (18 years)'}</span></li>
+					<li><span>{'Vegan Cooking'}</span></li>
+					<li><span>{'Playing Chess Badly'}</span></li>
+					<li><span>{'Keyboards'}</span></li>
 				</ul>
 			</div>
 		</div>
@@ -144,7 +160,7 @@ const Resume = () => {
 			<div className="resume-section">
 				<p>
 					{'A dedicated full stack developer with 6 years of experience creating and maintaining real-time web applications for desktop and mobile, '}
-					{'utilizing React, Javascript and Typescript, Go and MySQL/MariaDB. Self-starter with years of experience working remote. Looking to '}
+					{'utilizing React, Javascript and Typescript, Go and MySQL/MariaDB. Self-starter with years of experience working remotely. Looking to '}
 					{'learn new technologies and enhance my skills in both backend and frontend development.'}
 				</p>
 			</div>
@@ -208,10 +224,14 @@ const Resume = () => {
 				<ResumeEntry
 					company={'This Resume'}
 					date={'October 2022'}
+					link={{ url: 'https://github.com/bakerj76/james-baker', text: 'github.com/bakerj76/james-baker' }}
 				>
 					<ul>
 						<li>
 							{'Created using Preact, Typescript, and Vite.'}
+						</li>
+						<li>
+							{'Deployed with DigitalOcean.'}
 						</li>
 					</ul>
 				</ResumeEntry>

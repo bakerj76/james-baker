@@ -49,14 +49,15 @@
 	font-size: 0.9em;
 	line-height: 1.2;
 }
+.resume-margin-section .skills-list, .resume-margin-section .interests-list {
+	font-size: 0.9em;
+	padding-left: 30px;
+}
 .resume-margin-section .skills-list {
 	display: grid;
 	grid-auto-flow: column;
 	grid-template-columns: repeat(2, 84px);
 	grid-template-rows: repeat(6, min-content);
-
-	font-size: 0.9em;
-	padding-left: 30px;
 }
 .resume-margin-section .skills-list li span {
 	margin-left: -6px;
