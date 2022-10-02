@@ -13,6 +13,8 @@ import {
 
 import '../assets/styles/resume.css';
 
+const { EMAIL, PHONE_NUMBER } = import.meta.env;
+
 const Resume = () => {
 	interface ResumeEntryProps {
 		company: string;
@@ -31,6 +33,16 @@ const Resume = () => {
 			<div className="resume-margin-section">
 				<div className="title uppercase">
 					{'Contact'}
+				</div>
+				<div className="resume-margin-subsection">
+					<div className="subtitle uppercase">{'E-mail'}</div>
+					<FontAwesomeIcon icon={faEnvelope} />
+					<a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+				</div>
+				<div className="resume-margin-subsection">
+					<div className="subtitle uppercase">{'Phone'}</div>
+					<FontAwesomeIcon icon={faPhone} />
+					{PHONE_NUMBER}
 				</div>
 				<div className="resume-margin-subsection">
 					<div className="subtitle uppercase">{'LinkedIn'}</div>
