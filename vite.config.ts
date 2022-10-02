@@ -5,13 +5,13 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  	plugins: [preact(), eslint()],
-  	server: {
-		open: true,
-	},
-	resolve: {
-		alias: {
-			'@': path.resolve(__dirname, 'src'),
-		},
-	},
+      plugins: [preact(), eslint()],
+      server: {
+        open: true,
+    },
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, 'src'),
+        },
+    },
 })
