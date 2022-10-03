@@ -162,12 +162,12 @@
     }
 
     .resume-section .company {
-        width: min(59%, 100%);
+        width: min(59%, auto);
         margin-bottom: 0;
     }
 
     .resume-section .subheader {
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     .resume-section .location {
