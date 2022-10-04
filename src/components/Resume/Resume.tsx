@@ -236,13 +236,14 @@ const Resume = () => {
             <ResumeMobileContact />
             <div className="resume-section">
                 <p>
-                    {'A dedicated full stack developer with 6 years of experience crafting and ' +
-                        'maintaining real-time web applications for desktop and mobile, ' +
-                        'utilizing React, Javascript and Typescript, Go and MySQL/MariaDB. ' +
-                        'Self-starter with years of experience working remotely and a love for ' +
-                        'coding. Looking to learn new full stack development techniques, tech ' +
-                        'stacks, and languages; and enhance my skills in both backend and ' +
-                        'frontend development.'}
+                    {'A dedicated full stack developer with 11+ years of software development ' +
+                        'and 6 years of professional experience crafting and maintaining ' +
+                        'real-time web applications for desktop and mobile, utilizing React, ' +
+                        `Javascript and Typescript, Go and MySQL/MariaDB. I'm a self-starter ` +
+                        'with years of experience working remotely and a love for coding. ' +
+                        'Looking to learn new full stack development techniques, tech stacks, ' +
+                        'and languages; and enhance my skills in both backend and frontend ' +
+                        'development.'}
                 </p>
             </div>
             <div className="resume-section">
@@ -266,7 +267,9 @@ const Resume = () => {
                             <a href="https://efotboll.se">{'efotboll.se'}</a>
                             {' and '}
                             <a href="https://esportal.se">{'esportal.se'}</a>
-                            {', which service 1000 - 5000 users daily.'}
+                            {
+                                ', which service 1000 - 5000 concurrent users daily.'
+                            }
                         </li>
                         <li>
                             {'Led development on '}
@@ -279,7 +282,7 @@ const Resume = () => {
                         </li>
                         <li>
                             {
-                                'Worked with and led small teams of developers, including UI/UX designers, mobile app developers, and other frontend and backend developers.'
+                                'Led multiple teams of developers, including UI/UX designers, mobile app developers, and other frontend and backend developers.'
                             }
                         </li>
                         <li>
