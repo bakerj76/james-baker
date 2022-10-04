@@ -236,7 +236,7 @@ const Resume = () => {
             <ResumeMobileContact />
             <div className="resume-section">
                 <p>
-                    {'A dedicated full stack developer with 6 years of experience crafting and' +
+                    {'A dedicated full stack developer with 6 years of experience crafting and ' +
                         'maintaining real-time web applications for desktop and mobile, ' +
                         'utilizing React, Javascript and Typescript, Go and MySQL/MariaDB. ' +
                         'Self-starter with years of experience working remotely and a love for' +
@@ -400,8 +400,8 @@ const Resume = () => {
                     company={'Discord Bot'}
                     date={'December 2020'}
                     link={{
-                        url: 'https://github.com/bakerj76/Joe-Biden-Bot',
-                        text: 'github.com/bakerj76/Joe-Biden-Bot',
+                        url: 'https://github.com/bakerj76/Discord-Bot',
+                        text: 'github.com/bakerj76/Discord-Bot',
                     }}
                 >
                     <ul>
