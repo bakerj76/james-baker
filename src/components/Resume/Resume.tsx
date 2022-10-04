@@ -241,7 +241,7 @@ const Resume = () => {
                         'utilizing React, Javascript and Typescript, Go and MySQL/MariaDB. ' +
                         'Self-starter with years of experience working remotely and a love for ' +
                         'coding. Looking to learn new full stack development techniques, tech ' +
-                        'stacks and languages; and enhance my skills in both backend and ' +
+                        'stacks, and languages; and enhance my skills in both backend and ' +
                         'frontend development.'}
                 </p>
             </div>
