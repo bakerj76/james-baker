@@ -239,7 +239,7 @@ const Resume = () => {
                     {'A dedicated full stack developer with 6 years of experience crafting and ' +
                         'maintaining real-time web applications for desktop and mobile, ' +
                         'utilizing React, Javascript and Typescript, Go and MySQL/MariaDB. ' +
-                        'Self-starter with years of experience working remotely and a love for' +
+                        'Self-starter with years of experience working remotely and a love for ' +
                         'coding. Looking to learn new full stack development techniques, tech ' +
                         'stacks and languages; and enhance my skills in both backend and ' +
                         'frontend development.'}
