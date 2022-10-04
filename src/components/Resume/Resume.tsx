@@ -251,7 +251,7 @@ const Resume = () => {
                     company={'Doctype'}
                     position={'Full Stack Developer'}
                     date={'August 2016 - September 2022'}
-                    location={'Stolkholm, Sweden (Remote)'}
+                    location={'Stockholm, Sweden (Remote)'}
                 >
                     <ul>
                         <li>
@@ -279,7 +279,7 @@ const Resume = () => {
                         </li>
                         <li>
                             {
-                                'Worked with and led small teams of developers, including UX/UI designers, mobile app developers, and other frontend and backend developers.'
+                                'Worked with and led small teams of developers, including UI/UX designers, mobile app developers, and other frontend and backend developers.'
                             }
                         </li>
                         <li>
@@ -297,12 +297,12 @@ const Resume = () => {
                                         'Bracket displaying and automatic round generation for round-robin, single-elimination and Swiss tournaments'
                                     }
                                 </li>
-                                <li>{'Real-time elo-based matchmaking'}</li>
                                 <li>
                                     {
-                                        'Multistage tournaments (such as automatically handling round-robin to single-elimination tournaments)'
+                                        'Multistage tournaments (such as automatically handling round-robin seasons to single-elimination finals)'
                                     }
                                 </li>
+                                <li>{'Real-time Elo-based matchmaking'}</li>
                             </ul>
                         </li>
                     </ul>
@@ -349,7 +349,7 @@ const Resume = () => {
                                 {'2018 Gothia eCup'}
                             </a>
                             {
-                                ', a FIFA 18 tournament website created in collaboration with FIFA and Coca-Cola which I led development in.'
+                                ', in which I led design. A tournament website for the video game FIFA 18. Collaborated with FIFA and Coca-Cola.'
                             }
                         </li>
                     </ul>
