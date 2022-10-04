@@ -31,7 +31,8 @@
 .resume-margin-section {
     margin: 32px 0px 32px 0px;
 }
-.resume-margin-section .title, .resume-mobile-contact .title {
+.resume-margin-section .title,
+.resume-mobile-contact .title {
     font-family: 'FivoSans-Black';
     font-size: 1.3em;
     margin-bottom: 16px;
@@ -40,7 +41,8 @@
     padding-left: 8px;
     margin-bottom: 8px;
 }
-.resume-margin-section .subtitle, .resume-margin-subsection .subtitle {
+.resume-margin-section .subtitle,
+.resume-margin-subsection .subtitle {
     font-family: 'FivoSans-Black';
     line-height: 1;
 }
@@ -49,7 +51,8 @@
     font-size: 0.9em;
     line-height: 1.2;
 }
-.resume-margin-section .skills-list, .resume-margin-section .interests-list {
+.resume-margin-section .skills-list,
+.resume-margin-section .interests-list {
     font-size: 0.9em;
     padding-left: 30px;
 }
@@ -77,8 +80,9 @@
 .resume-section .entry {
     padding: 0 8px 20px;
 }
-.resume-section .header, .resume-section .subheader {
-    font-family: "FivoSans-Light";
+.resume-section .header,
+.resume-section .subheader {
+    font-family: 'FivoSans-Light';
     display: flex;
     flex-direction: column;
 }
@@ -87,12 +91,12 @@
     font-size: 1.2em;
 }
 .resume-section .company {
-    font-family: "FivoSans-Bold";
+    font-family: 'FivoSans-Bold';
     font-size: 1.35em;
     margin-bottom: 8px;
 }
 .resume-section .location {
-    font-family: "FivoSans-Light";
+    font-family: 'FivoSans-Light';
     margin-bottom: 8px;
 }
 .resume-section .position {
@@ -101,12 +105,12 @@
 .resume-section .position::before {
     content: '';
     display: inline-block;
-    
+
     width: 8px;
     height: 8px;
     margin-bottom: 2px;
     margin-right: 8px;
-    
+
     border-radius: 50%;
     background-color: var(--secondary-opposite);
 }
@@ -135,25 +139,26 @@
         font-size: 3.2em;
         line-height: 1.1;
     }
-    
+
     #job-title {
         margin-top: -8px;
         line-height: 0.5;
     }
 
     .resume-section {
-        margin-left:32px;
+        margin-left: 32px;
         margin-right: 32px;
     }
-    .resume-section:nth-last-child(2) {
+    .resume-section:nth-last-child(3) {
         border-bottom: none;
     }
-    
+
     .resume-section ul {
         margin-left: 0;
     }
 
-    .resume-section .header, .resume-section .subheader {
+    .resume-section .header,
+    .resume-section .subheader {
         flex-direction: row;
     }
 
@@ -171,7 +176,7 @@
     }
 
     .resume-section .location {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
 
     .resume-section .date {

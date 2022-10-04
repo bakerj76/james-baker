@@ -1,9 +1,7 @@
 import { Route } from 'wouter';
 
-import Home from './Resume';
+import Home from './Resume/Resume';
 
-const Routes = () => (
-    <Route path="/" component={Home} />
-);
+const Routes = () => <Route path="/" component={Home} />;
 
 export default Routes;
