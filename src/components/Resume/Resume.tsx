@@ -352,7 +352,7 @@ const Resume = () => {
                                 {'2018 Gothia eCup'}
                             </a>
                             {
-                                ', in which I led design. A tournament website for the video game FIFA 18. Collaborated with FIFA and Coca-Cola.'
+                                ', in which I led development. A tournament website for the video game FIFA 18. Collaborated with FIFA and Coca-Cola.'
                             }
                         </li>
                     </ul>
