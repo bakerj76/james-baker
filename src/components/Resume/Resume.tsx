@@ -189,43 +189,49 @@ const Resume = () => {
         location,
         link,
         children,
-    }: ResumeEntryProps) => (
-        <div className="entry">
-            <div className="header">
-                <div className="company">{company}</div>
-                {position && <div className="position">{position}</div>}
-                {date && !position && (
-                    <div className="date">
-                        <FontAwesomeIcon icon={faCalendar} />
-                        {date}
-                    </div>
-                )}
-            </div>
-            <div className="subheader">
-                {location && (
-                    <div className="location">
-                        <FontAwesomeIcon icon={faLocationDot} />
-                        {location}
-                    </div>
-                )}
-                {date && position && (
-                    <div className="date">
-                        <FontAwesomeIcon icon={faCalendar} />
-                        {date}
-                    </div>
-                )}
-            </div>
-            {link && (
-                <div>
-                    <a href={link.url}>
-                        <FontAwesomeIcon icon={faLink} />
-                        {link.text}
-                    </a>
+    }: ResumeEntryProps) => {
+        const hasSubheader = location || (date && position);
+
+        return (
+            <div className="entry">
+                <div className="header">
+                    <div className="company">{company}</div>
+                    {position && <div className="position">{position}</div>}
+                    {date && !position && (
+                        <div className="date">
+                            <FontAwesomeIcon icon={faCalendar} />
+                            {date}
+                        </div>
+                    )}
                 </div>
-            )}
-            {children}
-        </div>
-    );
+                {hasSubheader && (
+                    <div className="subheader">
+                        {location && (
+                            <div className="location">
+                                <FontAwesomeIcon icon={faLocationDot} />
+                                {location}
+                            </div>
+                        )}
+                        {date && position && (
+                            <div className="date">
+                                <FontAwesomeIcon icon={faCalendar} />
+                                {date}
+                            </div>
+                        )}
+                    </div>
+                )}
+                {link && (
+                    <div>
+                        <a href={link.url}>
+                            <FontAwesomeIcon icon={faLink} />
+                            {link.text}
+                        </a>
+                    </div>
+                )}
+                {children}
+            </div>
+        );
+    };
 
     const ResumeBody = () => (
         <div className="resume-body">
