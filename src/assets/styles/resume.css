@@ -190,7 +190,7 @@
 
 @media only print {
     .resume-body {
-        font-size: 0.8em;
+        font-size: 0.83em;
     }
 
     .resume-section .entry {
@@ -199,6 +199,7 @@
 
     .resume-section .title {
         font-size: 1.5em;
+		margin-bottom: 12px;
     }
 
     .resume-section .header {
