@@ -384,7 +384,6 @@ const Resume = () => {
                             }
                         </li>
                         <li>{'Has light and dark themes.'}</li>
-                        <li>{'Deployed with DigitalOcean.'}</li>
                     </ul>
                 </ResumeEntry>
                 <ResumeEntry
