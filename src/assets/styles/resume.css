@@ -190,32 +190,50 @@
 
 @media only print {
     .resume-body {
-        font-size: 0.83em;
+        font-size: 0.9em;
     }
 
+	.resume-section {
+		margin-top: 16px;
+	}
+
     .resume-section .entry {
-        padding-bottom: 8px;
+        padding-bottom: 4px;
     }
 
     .resume-section .title {
         font-size: 1.5em;
-		margin-bottom: 12px;
+		margin-bottom: 8px;
     }
 
     .resume-section .header {
         font-size: 1.2em;
     }
 
+	.resume-section .header .company {
+		font-size: 1.2em;
+	}
+
+	.resume-section .header .position {
+		font-size: 1.15em;
+	}
+
     .resume-section .subheader {
         font-size: 1.15em;
+		margin: 4px 0;
     }
 
+	.resume-section ul {
+		margin-block-start: 0.5em;
+		margin-block-end: 0.5em;
+	}
+
     .resume-section ul li {
-        line-height: 1.1;
+        line-height: 1.25;
     }
 
     .resume-section p {
-        margin-top: 8px;
-        line-height: 1.1;
+        margin-top: 8px; 
+        line-height: 1.25;
     }
 }
