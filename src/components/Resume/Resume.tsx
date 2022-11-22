@@ -257,7 +257,7 @@ const Resume = () => {
                 <ResumeEntry
                     company={'Doctype'}
                     position={'Full Stack Developer'}
-                    date={'August 2016 - September 2022'}
+                    date={'August 2016'}
                     location={'Stockholm, Sweden (Remote)'}
                 >
                     <ul>
